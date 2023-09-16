@@ -1,0 +1,269 @@
+
+
+.Insta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+
+    width: 100%;
+    min-height: 100vh;
+    background: #252525;
+
+    .Insta-Redirects {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    
+        width: 300px;
+        height: 100%;
+        padding: 20px 30px;
+        background-color: #252525;
+        border-right: solid black 3px;
+    
+        position: fixed;
+        left: 0px;
+    
+        .PortfolioMe {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+    
+            width: 100%;
+            padding: 10px 0px;
+            margin-bottom: 30px;
+    
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                font-weight: 600;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+    
+        .Redirects {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+    
+            width: 100%;
+            padding: 10px 0px;
+    
+            a {
+                margin-right: 10px;
+                text-decoration: none;
+                color: white;
+                font-weight: 600;
+            }
+    
+            button {
+                margin-right: 10px;
+                text-decoration: none;
+                color: white;
+                font-weight: 600;
+                background-color: rgba(127, 255, 212, 0);
+                border: none;
+                padding: 0px;
+            }
+        }
+    
+        .fundo {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.623);
+            position: fixed;
+            right: 0;
+            transition: 1.0s;
+
+            .CriarPubli {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+        
+                width: 600px;
+                padding: 20px 10px;
+                border-radius: 10px;
+                background-color: #1a1a1a;
+                border: solid 1px rgb(151, 151, 151);
+                transition: 1.0s;
+        
+                h1 {
+                    font-size: 15px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    color: #ececec;
+                    margin-bottom: 5px;
+                    font-weight: 600;
+                }
+        
+                p {
+                    font-size: 15px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    color: rgb(180, 180, 180);
+                    margin-bottom: 5px;
+                    font-weight: 600;
+                }
+        
+                input {
+                    width: 100%;
+                    height: 20px;
+                    background-color: #171717;
+                    border: none;
+                    margin-bottom: 10px;
+                    color: rgb(99, 99, 99);
+                }
+        
+                input[type="file"] {
+                    display: none;
+                }
+        
+                label {
+                    width: 100%;
+                    height: 20px;
+                    background-color: #171717;
+                    border: none;
+                    margin-bottom: 10px;
+                    color: rgb(99, 99, 99);
+                    font-size: 12px;
+                }
+        
+                input:focus {
+                    box-shadow: 0 0 0 0;
+                    outline: 0;
+                }
+        
+                textarea {
+                    width: 100%;
+                    background-color: #171717;
+                    border-radius: 10px;
+                    border: none;
+                    color: rgb(99, 99, 99);
+                }
+        
+                textarea:focus {
+                    box-shadow: 0 0 0 0;
+                    outline: 0;
+                }
+        
+                .publicar {
+                    color: white;
+                    font-weight: 600;
+                    background: linear-gradient(90deg, #FCB900, #E90167, #BD00B1);
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 10px;
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+
+                .sair {
+                    color: white;
+                    font-weight: 600;
+                    background-color: rgb(22, 22, 22);
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 10px;
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .Insta-Page {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        width: 100%;
+        height: 100%;
+        margin-left: 300px;
+        padding: 10px 0px 0px 0px;
+
+        .Recarregar {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            width: 100%;
+            padding: 10px 40px;
+
+            button {
+                padding: 10px 20px;
+                background-color: #373737;
+                border: none;
+                border-radius: 20px;
+                color: white;
+            }
+        }
+
+        .Section-Storys {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            width: 100%;
+            padding: 10px 40px;
+
+            .Storys {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+    
+                width: 100px;
+                height: 100px;
+                padding: 2px;
+                background: linear-gradient(90deg, #FCB900, #E90167, #BD00B1);
+                border-radius: 100px;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            #amigos {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+    
+                width: 100px;
+                height: 100px;
+                padding: 2px;
+                margin-right: 17px;
+                background: linear-gradient(90deg, #3bfc00, #7cdc48, #43a1d7);
+                border-radius: 100px;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        .Postagens {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+
+            width: 100%;
+            height: 100%;
+            padding: 10px 40px;
+        }
+    }
+}
